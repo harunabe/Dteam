@@ -6,13 +6,15 @@
 body{
     font-family: 'メイリオ', Osaka;
     margin: 3em;
-    background-color: rgb(255, 246, 163);
+    background-color: #0F79B3;
+    /*background-color: rgb(255, 246, 163);*/
 }
 h1{
     border-bottom:solid 1px #555;
     font-size: 60px;
 }
 p#time{
+    font-family: 'Bungee Shade', cursive;
     font-size: 58pt;
     padding-top: 0.5em;
 }
