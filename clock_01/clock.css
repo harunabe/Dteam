@@ -1,0 +1,40 @@
+body {
+    background-color: #0F79B3;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    margin: 0 auto;
+    max-width: 800px;
+    height: 500px;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    width: 100%;
+}
+
+#date {
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Bungee Shade', cursive;
+    top: 0;
+    left: 0;
+    transition: all .15s linear 0s;
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #E6DC13;
+    text-transform: uppercase;
+    color: brown;
+    font-family: arial;
+    letter-spacing: 1px;
+    box-shadow: -6px 6px 0 brown;
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+}
