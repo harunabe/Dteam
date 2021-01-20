@@ -4,7 +4,7 @@
     border-radius: 10px;
     border:solid 1px #000000;
     margin:100px;
-    background:-webkit-gradient(linear, left top, left bottom, from(#2f4f4f), to(#066));
+    background:-webkit-gradient(linear, left top, left bottom, from#ebf1e9), to(rgb(53, 238, 130));
 }
 
 p#default {
