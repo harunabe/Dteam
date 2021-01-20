@@ -17,6 +17,7 @@ p#time{
     font-family: 'Bungee Shade', cursive;
     font-size: 58pt;
     padding-top: 0.5em;
+    color: white;
 }
 button{
     top: 0;
@@ -53,6 +54,10 @@ button:hover{
 #btnClear:active{
     transform: translate(0,2px);
     border-bottom: 2px solid #555;
+}
+img{
+    width:auto;
+    height: 500px;
 }
 
 
