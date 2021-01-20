@@ -1,5 +1,8 @@
 html{
     background-color: #0F79B3;
+    width:980px;
+    margin:0 auto;
+
 }
 #body{
     width:410px;
@@ -27,34 +30,9 @@ p#default {
     font-weight:bold;
     text-align:center;    
 }
-
-#start{
-    width:120px;
-    height:50px;
-    margin-left:30px;
-    color:#535353;
-    font-size:18px;
-    font-weight:bold;
-}
-
-#stop{
-    width:120px;
-    height:50px;
-    margin-left:19px;
-    margin-right:19px;
-    color:#535353;
-    font-size:18px;
-    font-weight:bold;
-}
-
-#reset{
-    width:120px;
-    height:50px;
-    color:#535353;
-    font-size:18px;
-    font-weight:bold;
-}
-button{
+button {
+    position:absolute;
+    font-family: 'Bungee Shade', cursive;
     top: 0;
     left: 0;
     transition: all .15s linear 0s;
@@ -69,7 +47,11 @@ button{
     box-shadow: -6px 6px 0 brown;
     text-decoration: none;
     font-family: 'Bungee Shade', cursive;
-    font-size: 15px;
+    font-size: 30px;
     
+}
+button:hover{
+    background-color: pink;
+    border-radius: 15pt;
 }
 

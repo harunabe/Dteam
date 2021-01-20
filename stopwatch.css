@@ -11,7 +11,7 @@ body{
 }
 h1{
     border-bottom:solid 1px #555;
-    font-size: 60px;
+    font-size: 45px;
 }
 p#time{
     font-family: 'Bungee Shade', cursive;
@@ -56,6 +56,7 @@ button:hover{
     border-bottom: 2px solid #555;
 }
 img{
+    position: absolute;
     width:auto;
     height: 500px;
 }

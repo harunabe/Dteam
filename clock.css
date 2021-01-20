@@ -4,7 +4,7 @@ body {
     font-family: 'Bungee Shade', cursive;
     margin: 0 auto;
     max-width: 800px;
-    height: 500px;
+    
 }
 
 #time {
@@ -21,6 +21,7 @@ body {
 }
 
 button {
+    position:absolute;
     font-family: 'Bungee Shade', cursive;
     top: 0;
     left: 0;
@@ -37,4 +38,8 @@ button {
     text-decoration: none;
     font-family: 'Bungee Shade', cursive;
     font-size: 25px;
+}
+button:hover{
+    background-color: pink;
+    border-radius: 15pt;
 }
