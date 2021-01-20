@@ -2,6 +2,7 @@ html{
     background-color: #0F79B3;
     width:980px;
     margin:0 auto;
+    font-family: 'Bungee Shade', cursive;
 
 }
 #body{
@@ -53,5 +54,10 @@ button {
 button:hover{
     background-color: pink;
     border-radius: 15pt;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
 }
 
