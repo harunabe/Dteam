@@ -17,13 +17,28 @@ p#time{
     padding-top: 0.5em;
 }
 button{
-    width:5em;
+    top: 0;
+    left: 0;
+    transition: all .15s linear 0s;
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #E6DC13;
+    text-transform: uppercase;
+    color: brown;
+    font-family: arial;
+    letter-spacing: 1px;
+    box-shadow: -6px 6px 0 brown;
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+    /*width:5em;
     padding:5pt;
     margin: 10pt;
     font-size: 20pt;
     border:solid 1px rgb(0, 0, 0);
     border-radius: 15pt;
-    border-bottom: 5px solid #555;
+    border-bottom: 5px solid #555;*/
 }
 button:hover{
     background-color: pink;
