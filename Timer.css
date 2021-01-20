@@ -6,8 +6,11 @@
     margin:100px;
     background:-webkit-gradient(linear, left top, left bottom, from#ebf1e9), to(rgb(53, 238, 130));
 }
-
+head{
+    background-color: #0F79B3;
+}
 p#default {
+    font-family: 'Bungee Shade', cursive;
     width:340px;
     height:100px;
     background-color:#f9f9f9;
@@ -50,4 +53,22 @@ p#default {
     color:#535353;
     font-size:18px;
     font-weight:bold;
+}
+button{
+    top: 0;
+    left: 0;
+    transition: all .15s linear 0s;
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #E6DC13;
+    text-transform: uppercase;
+    color: brown;
+    font-family: arial;
+    letter-spacing: 1px;
+    box-shadow: -6px 6px 0 brown;
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 15px;
+    
 }
